@@ -1,0 +1,20 @@
+2023-03-23 03:27:06 Extracting data/qm9_5k.smi..
+2023-03-23 03:27:06 Extracted 4989 out of 1 molecules not adding Hydrogen!
+2023-03-23 03:27:06 Creating atoms encoder and decoder..
+2023-03-23 03:27:07 [0, 6, 7, 8, 9]
+0-padding symbol
+6- carbon
+7-nitrogen 
+8-oxygen
+9-fluorine
+2023-03-23 03:27:07 Created atoms encoder and decoder with 4 atom types and 1 PAD symbol!
+2023-03-23 03:27:07 Creating bonds encoder and decoder..
+2023-03-23 03:27:07 [rdkit.Chem.rdchem.BondType.ZERO, rdkit.Chem.rdchem.BondType.SINGLE, rdkit.Chem.rdchem.BondType.DOUBLE, rdkit.Chem.rdchem.BondType.TRIPLE, rdkit.Chem.rdchem.BondType.AROMATIC]
+2023-03-23 03:27:07 Created bonds encoder and decoder with 4 bond types and 1 PAD symbol!
+2023-03-23 03:27:07 Creating SMILES encoder and decoder..
+2023-03-23 03:27:07 Created SMILES encoder and decoder with 21 types and 1 PAD symbol!
+2023-03-23 03:27:07 Creating features and adjacency matrices..
+
+2023-03-23 03:27:13 Created 4989 features and adjacency matrices  out of 4989 molecules!
+2023-03-23 03:27:13 Creating train, validation and test sets..
+2023-03-23 03:27:13 Created train (3993 items), validation (498 items) and test (498 items) sets!
